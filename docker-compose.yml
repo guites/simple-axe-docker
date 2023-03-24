@@ -1,0 +1,6 @@
+services:
+    axe-runner:
+        build:
+            context: .
+        volumes:
+            - ./:/code
